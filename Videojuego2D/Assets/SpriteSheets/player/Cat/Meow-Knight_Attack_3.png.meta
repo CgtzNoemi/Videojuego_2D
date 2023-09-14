@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37e0276798757a344b0bb9c695eedbd1
+guid: 0611aa5d2d6d68e4f836e6638a5f68c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,148 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_bullet_0
+      name: Meow-Knight_Attack_3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 28
+        height: 16
+      alignment: 9
+      pivot: {x: 0.51147664, y: 0.5059509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c21fab985f039e4a86260c3b2bfc459
+      internalID: -1730383455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meow-Knight_Attack_3_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa93d228614845478a09158bdd19d72
+      internalID: -12817062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meow-Knight_Attack_3_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 8
-        height: 8
+        y: 42
+        width: 29
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c116b1df2dd9f14797f9de6a6b29aab
-      internalID: -1508463690
+      spriteID: bdb2433231efebb41a8c9dd6f5639863
+      internalID: 104798278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_1
+      name: Meow-Knight_Attack_3_3
       rect:
         serializedVersion: 2
-        x: 8
+        x: 1
         y: 0
-        width: 8
-        height: 8
+        width: 28
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e95e65c35554e4898a573f53f86cd6
-      internalID: 2004427314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f18130bdbc7587f47bca0a5fc612214d
-      internalID: 1066787567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_3
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90351a426c3f58b43a62ae86e60d684a
-      internalID: -1142328502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dee3ef0025b386945b87b72b5cba9c5f
-      internalID: 456881639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_5
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d0cbf5e2736d784b9cb57e11e0c43cb
-      internalID: 1515093177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_6
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4de370ae52c77440baea93c1059b228
-      internalID: -550793299
+      spriteID: c1b082c57c64c234792cb3f674fa07aa
+      internalID: 181462815
       vertices: []
       indices: 
       edges: []
@@ -267,13 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      weapon_bullet_0: -1508463690
-      weapon_bullet_1: 2004427314
-      weapon_bullet_2: 1066787567
-      weapon_bullet_3: -1142328502
-      weapon_bullet_4: 456881639
-      weapon_bullet_5: 1515093177
-      weapon_bullet_6: -550793299
+      Meow-Knight_Attack_3_0: -1730383455
+      Meow-Knight_Attack_3_1: -12817062
+      Meow-Knight_Attack_3_2: 104798278
+      Meow-Knight_Attack_3_3: 181462815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

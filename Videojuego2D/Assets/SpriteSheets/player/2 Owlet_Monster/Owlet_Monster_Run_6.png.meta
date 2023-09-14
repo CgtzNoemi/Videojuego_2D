@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37e0276798757a344b0bb9c695eedbd1
+guid: af5726d9784d49945bcd4435aed402f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_bullet_0
+      name: Owlet_Monster_Run_6_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8
-        height: 8
+        x: 6
+        y: 1
+        width: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c116b1df2dd9f14797f9de6a6b29aab
-      internalID: -1508463690
+      spriteID: de135045cd1da214fb2e8888d6a852af
+      internalID: -14378245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_1
+      name: Owlet_Monster_Run_6_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 8
-        height: 8
+        x: 37
+        y: 1
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e95e65c35554e4898a573f53f86cd6
-      internalID: 2004427314
+      spriteID: bf05c09888949b44980419e46da02a5d
+      internalID: -1864086644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_2
+      name: Owlet_Monster_Run_6_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 69
         y: 0
-        width: 8
-        height: 8
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18130bdbc7587f47bca0a5fc612214d
-      internalID: 1066787567
+      spriteID: bafe51b62f4833e4b84c39c77940c6db
+      internalID: 1457003293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_3
+      name: Owlet_Monster_Run_6_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 8
-        height: 8
+        x: 102
+        y: 1
+        width: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90351a426c3f58b43a62ae86e60d684a
-      internalID: -1142328502
+      spriteID: 09a6b6934be175546a1b98f583253e37
+      internalID: 472997042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_4
+      name: Owlet_Monster_Run_6_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 8
-        height: 8
+        x: 133
+        y: 1
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee3ef0025b386945b87b72b5cba9c5f
-      internalID: 456881639
+      spriteID: 57472e2579cea6041a356f86317d581f
+      internalID: 293483088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_5
+      name: Owlet_Monster_Run_6_5
       rect:
         serializedVersion: 2
-        x: 40
+        x: 165
         y: 0
-        width: 8
-        height: 8
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,29 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0cbf5e2736d784b9cb57e11e0c43cb
-      internalID: 1515093177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: weapon_bullet_6
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4de370ae52c77440baea93c1059b228
-      internalID: -550793299
+      spriteID: efee51a3b3cb2c64db57450991539bc1
+      internalID: -665912531
       vertices: []
       indices: 
       edges: []
@@ -267,13 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      weapon_bullet_0: -1508463690
-      weapon_bullet_1: 2004427314
-      weapon_bullet_2: 1066787567
-      weapon_bullet_3: -1142328502
-      weapon_bullet_4: 456881639
-      weapon_bullet_5: 1515093177
-      weapon_bullet_6: -550793299
+      Owlet_Monster_Run_6_0: -14378245
+      Owlet_Monster_Run_6_1: -1864086644
+      Owlet_Monster_Run_6_2: 1457003293
+      Owlet_Monster_Run_6_3: 472997042
+      Owlet_Monster_Run_6_4: 293483088
+      Owlet_Monster_Run_6_5: -665912531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

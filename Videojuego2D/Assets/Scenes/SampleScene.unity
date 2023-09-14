@@ -135,10 +135,10 @@ GameObject:
   - component: {fileID: 37966906}
   - component: {fileID: 37966910}
   - component: {fileID: 37966908}
-  - component: {fileID: 37966909}
   - component: {fileID: 37966911}
+  - component: {fileID: 37966912}
   m_Layer: 0
-  m_Name: John
+  m_Name: Owlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -873162933, guid: b0b2d6d51a031764eb90cef8fea540c0, type: 3}
+  m_Sprite: {fileID: 1909745561, guid: 55ecce5bffe852442a626cd8b9e4f511, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -243,23 +243,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.019275874, y: 0.0059663355}
-  m_Size: {x: 0.09632844, y: 0.16425294}
+  m_Offset: {x: 0.015111536, y: -0.00710088}
+  m_Size: {x: 0.11833638, y: 0.19038737}
   m_Direction: 0
---- !u!114 &37966909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37966905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d6bc3beed995f64e97a1707a4bc0782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  JumpForce: 150
-  Speed: 1
 --- !u!50 &37966910
 Rigidbody2D:
   serializedVersion: 4
@@ -308,6 +294,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &37966912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37966905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3fb3a904b16e142920bbc700e4d3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5231455086610135343, guid: 0cf24a34cc98fb14db86c94a202e13d9, type: 3}
+  JumpForce: 150
+  Speed: 1
 --- !u!1 &507522718
 GameObject:
   m_ObjectHideFlags: 0

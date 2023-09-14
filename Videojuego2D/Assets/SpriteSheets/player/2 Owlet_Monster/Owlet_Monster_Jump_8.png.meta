@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37e0276798757a344b0bb9c695eedbd1
+guid: df486f66a07553b49ac65b43a0c8802a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_bullet_0
+      name: Owlet_Monster_Jump_8_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 8
-        height: 8
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c116b1df2dd9f14797f9de6a6b29aab
-      internalID: -1508463690
+      spriteID: 844e37126d14f8a4984465318c696748
+      internalID: 1469374827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_1
+      name: Owlet_Monster_Jump_8_1
       rect:
         serializedVersion: 2
-        x: 8
+        x: 35
         y: 0
-        width: 8
-        height: 8
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e95e65c35554e4898a573f53f86cd6
-      internalID: 2004427314
+      spriteID: d636fe5aa2fc42149b29708e4b508dcc
+      internalID: -393212590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_2
+      name: Owlet_Monster_Jump_8_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 67
         y: 0
-        width: 8
-        height: 8
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18130bdbc7587f47bca0a5fc612214d
-      internalID: 1066787567
+      spriteID: f5ca87b8efcd6444fbb3c9e3127db5ff
+      internalID: -823033249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_3
+      name: Owlet_Monster_Jump_8_3
       rect:
         serializedVersion: 2
-        x: 24
+        x: 100
         y: 0
-        width: 8
-        height: 8
+        width: 20
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90351a426c3f58b43a62ae86e60d684a
-      internalID: -1142328502
+      spriteID: 5488f2409a028e64eba4d9b8cef26f94
+      internalID: 2052628306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_4
+      name: Owlet_Monster_Jump_8_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 8
-        height: 8
+        x: 131
+        y: 3
+        width: 21
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee3ef0025b386945b87b72b5cba9c5f
-      internalID: 456881639
+      spriteID: 390ae35d37b20f14e8a844245b16a9ff
+      internalID: -253133241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_5
+      name: Owlet_Monster_Jump_8_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 8
-        height: 8
+        x: 163
+        y: 1
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0cbf5e2736d784b9cb57e11e0c43cb
-      internalID: 1515093177
+      spriteID: f957a3f9bcd3164479b87e33387397ed
+      internalID: -1238796256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weapon_bullet_6
+      name: Owlet_Monster_Jump_8_6
       rect:
         serializedVersion: 2
-        x: 48
+        x: 195
         y: 0
-        width: 8
-        height: 8
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4de370ae52c77440baea93c1059b228
-      internalID: -550793299
+      spriteID: 2808d60be82d1614ab0b391d182b51a5
+      internalID: -952947161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Owlet_Monster_Jump_8_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c98bf03f8f594e4a86d4be3796cb666
+      internalID: 466572492
       vertices: []
       indices: 
       edges: []
@@ -267,13 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      weapon_bullet_0: -1508463690
-      weapon_bullet_1: 2004427314
-      weapon_bullet_2: 1066787567
-      weapon_bullet_3: -1142328502
-      weapon_bullet_4: 456881639
-      weapon_bullet_5: 1515093177
-      weapon_bullet_6: -550793299
+      Owlet_Monster_Jump_8_0: 1469374827
+      Owlet_Monster_Jump_8_1: -393212590
+      Owlet_Monster_Jump_8_2: -823033249
+      Owlet_Monster_Jump_8_3: 2052628306
+      Owlet_Monster_Jump_8_4: -253133241
+      Owlet_Monster_Jump_8_5: -1238796256
+      Owlet_Monster_Jump_8_6: -952947161
+      Owlet_Monster_Jump_8_7: 466572492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
