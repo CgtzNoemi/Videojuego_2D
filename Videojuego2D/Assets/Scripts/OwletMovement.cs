@@ -11,7 +11,7 @@ public class OwletMovement : MonoBehaviour
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
-    private float Horizontal;
+    private float MoveDirectionX;
     private bool EnElSuelo;
     private float UltimoDisparo;
     void Start()
@@ -22,17 +22,17 @@ public class OwletMovement : MonoBehaviour
 
     void Update()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal");
-        if (Horizontal < 0.0f)
+        MoveDirectionX = Input.GetAxisRaw("Horizontal");
+        if (MoveDirectionX < 0.0f)
         {
             transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
         }
-        else if (Horizontal > 0.0f)
+        else if (MoveDirectionX > 0.0f)
         {
             transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
 
-        Animator.SetBool("running", Horizontal != 0.0f);
+        Animator.SetBool("running", MoveDirectionX != 0.0f);
         Animator.SetBool("jumping", Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow));
         
 
@@ -86,7 +86,7 @@ public class OwletMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Rigidbody2D.velocity = new Vector2(Horizontal, Rigidbody2D.velocity.y);
+        Rigidbody2D.velocity = new Vector2(MoveDirectionX, Rigidbody2D.velocity.y);
     }
 }
 
