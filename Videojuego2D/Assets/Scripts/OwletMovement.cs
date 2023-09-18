@@ -6,7 +6,7 @@ using UnityEngine;
 public class OwletMovement : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public float JumpForce;
+    public float FuerzaDeSalto;
     public float Speed;
 
     private Rigidbody2D Rigidbody2D;
@@ -63,7 +63,7 @@ public class OwletMovement : MonoBehaviour
     }
     private void Jump()
     {
-        Rigidbody2D.AddForce(Vector2.up * JumpForce);
+        Rigidbody2D.AddForce(Vector2.up * FuerzaDeSalto);
     }
     private void Shoot()
     {
