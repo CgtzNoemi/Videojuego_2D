@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dcc30b568e8824743bd8b977f16156e3
+guid: 8f6827f9214e2f74a8eea69ebf13f875
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy_weapon_bullet_0
+      name: Pink_Monster_Idle_4_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 8
-        height: 8
+        width: 17
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2f88bf43cd37e94c9d7fc109de5eb24
-      internalID: 1524171080
+      spriteID: 3cbd41898d471c14f8d58aedc2885648
+      internalID: 1124318112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_1
+      name: Pink_Monster_Idle_4_1
       rect:
         serializedVersion: 2
-        x: 8
+        x: 39
         y: 0
-        width: 8
-        height: 8
+        width: 17
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb53f23430b5cce46aedfc13e8496444
-      internalID: 960029381
+      spriteID: bf19fca741477bd4fb24b81074cbb842
+      internalID: -1404801385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_2
+      name: Pink_Monster_Idle_4_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 70
         y: 0
-        width: 8
-        height: 8
+        width: 18
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc13f4c34e12abc47ba252b9c18f4563
-      internalID: -1573845593
+      spriteID: eb2b2ce21c1fe3744b5fe18d9a1641ab
+      internalID: -930038294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_weapon_bullet_3
+      name: Pink_Monster_Idle_4_3
       rect:
         serializedVersion: 2
-        x: 24
+        x: 101
         y: 0
-        width: 8
-        height: 8
+        width: 20
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73134b43c765634680065badea0106f
-      internalID: 1633437381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_weapon_bullet_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa081b5152feab344a58fdafac5e4cd4
-      internalID: -28962139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_weapon_bullet_5
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3040769320a3044680e798dd99505af
-      internalID: -633298914
+      spriteID: 74de6ea1950d2b444a21980f64748ddd
+      internalID: 255862688
       vertices: []
       indices: 
       edges: []
@@ -246,13 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy_weapon_bullet_0: 1524171080
-      enemy_weapon_bullet_1: 960029381
-      enemy_weapon_bullet_2: -1573845593
-      enemy_weapon_bullet_3: 1633437381
-      enemy_weapon_bullet_4: -28962139
-      enemy_weapon_bullet_5: -633298914
-      enemy_weapon_bullet_6: -886010929
+      Pink_Monster_Idle_4_0: 1124318112
+      Pink_Monster_Idle_4_1: -1404801385
+      Pink_Monster_Idle_4_2: -930038294
+      Pink_Monster_Idle_4_3: 255862688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
