@@ -28,5 +28,34 @@ public class bulletScript : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(gameObject.name + " colisionó con: " + collision.gameObject.name);
+        if (collision.CompareTag("Heroe"))
+        {
+            OwletMovement owlet = collision.GetComponent<OwletMovement>();
+            if (owlet != null)
+            {
+                owlet.Golpe();
+                
+            }
+
+        }
+
+
+        if (collision.CompareTag("Enemigo"))
+        {
+            PinkMonsterScript pinkMonster = collision.GetComponent<PinkMonsterScript>();
+            if (pinkMonster != null)
+            {
+                pinkMonster.Golpe();
+                
+            }
+
+        }
+        DestroyBullet();
+    }
+
+
 }
 

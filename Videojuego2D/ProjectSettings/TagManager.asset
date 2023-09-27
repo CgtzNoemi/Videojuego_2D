@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Heroe
+  - Enemigo
+  - Undefined
+  - bala
   layers:
   - Default
   - TransparentFX
@@ -11,11 +15,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - owlet
+  - balaOwlet
+  - Tilemap
+  - pinkMonster
+  - balaPinkMonster
   - 
   - 
   - 

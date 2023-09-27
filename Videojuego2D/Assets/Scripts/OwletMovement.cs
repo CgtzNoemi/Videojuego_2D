@@ -14,6 +14,8 @@ public class OwletMovement : MonoBehaviour
     private float MoveDirectionX;
     private bool EnElSuelo;
     private float UltimoDisparo;
+    private int Health = 5;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -22,6 +24,7 @@ public class OwletMovement : MonoBehaviour
 
     void Update()
     {
+        
         MoveDirectionX = Input.GetAxisRaw("Horizontal");
         if (MoveDirectionX < 0.0f)
         {
@@ -87,6 +90,15 @@ public class OwletMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(MoveDirectionX, Rigidbody2D.velocity.y);
+    }
+
+    public void Golpe()
+    {
+        Health = Health - 1;
+        if (Health == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
 
