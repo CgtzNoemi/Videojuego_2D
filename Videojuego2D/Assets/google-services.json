@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1018186853398",
+    "firebase_url": "https://videojuego2d-b4e7d-default-rtdb.firebaseio.com",
+    "project_id": "videojuego2d-b4e7d",
+    "storage_bucket": "videojuego2d-b4e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018186853398:android:e3557bc6e1c6ec15871937",
+        "android_client_info": {
+          "package_name": "com.diseno.videojuego2d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtybZ2wOrqXZxuMw1deMbN2HFKLGurdec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

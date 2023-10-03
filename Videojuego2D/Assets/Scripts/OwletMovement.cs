@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class OwletMovement : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class OwletMovement : MonoBehaviour
     private bool EnElSuelo;
     private float UltimoDisparo;
     private int Health = 5;
+    public Image corazon01, corazon02, corazon03, corazon04, corazon05;
 
     void Start()
     {
@@ -92,13 +95,33 @@ public class OwletMovement : MonoBehaviour
         Rigidbody2D.velocity = new Vector2(MoveDirectionX, Rigidbody2D.velocity.y);
     }
 
+
     public void Golpe()
     {
-        Health = Health - 1;
-        if (Health == 0)
+        Animator.SetBool("hurt", true);
+        Invoke("AnimHurt", 0.1f);
+    }
+
+    void AnimHurt()
+    {
+        Animator.SetBool("hurt", false);
+        if (Health > 0)
         {
-            Destroy(gameObject);
+            Health--;
+            Image[] corazones = { corazon01, corazon02, corazon03, corazon04, corazon05 };
+
+            if (Health < corazones.Length)
+            {
+                Destroy(corazones[Health].gameObject);
+            }
+            if (Health == 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
+
 }
+
+
 

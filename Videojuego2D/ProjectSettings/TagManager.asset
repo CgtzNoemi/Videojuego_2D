@@ -8,6 +8,7 @@ TagManager:
   - Enemigo
   - Undefined
   - bala
+  - moneda
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Tilemap
   - pinkMonster
   - balaPinkMonster
-  - 
+  - moneda
   - 
   - 
   - 
