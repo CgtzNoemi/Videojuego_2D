@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MonedaNivel : MonoBehaviour
+public class MonedaNivel2 : MonoBehaviour
 {
     public int valor = 1;
     public GameManager gameManager;
-    public string nombreEscena = "Ganar1";
+    public string nombreEscena = "Ganar2";
     // Start is called before the first frame update
     void Start()
     {

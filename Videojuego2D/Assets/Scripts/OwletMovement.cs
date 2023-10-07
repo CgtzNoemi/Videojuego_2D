@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class OwletMovement : MonoBehaviour
@@ -10,6 +10,7 @@ public class OwletMovement : MonoBehaviour
     public GameObject bulletPrefab;
     public float FuerzaDeSalto;
     public float Speed;
+    public string nombreEscena = "Perder";
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
@@ -117,6 +118,7 @@ public class OwletMovement : MonoBehaviour
             if (Health == 0)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene(nombreEscena);
             }
         }
     }
